@@ -23,3 +23,125 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
+#datetime-picker,
+button[data-start] {
+  width: 355px;
+  height: 40px;
+}
+
+#datetime-picker {
+  width: 272px;
+}
+
+button[data-start] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #cfcfcf;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #989898;
+}
+
+button[data-start]:hover {
+  background: #4e75ff;
+}
+
+/* Timer */
+.timer {
+  width: 346px;
+  height: 72px;
+  display: flex;
+  gap: 24px;
+}
+
+.timer .field {
+  width: 55px;
+  height: 72px;
+}
+
+.timer .value {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.timer .label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+
+.iziToast-wrapper {
+  position: absolute;
+  top: 0px;
+
+  right: 0;
+  z-index: 9999;
+
+}
+
+/*  Snackbar */
+
+.form {
+  width: 360px;
+  margin-bottom: 200px;
+}
+
+.form input[type="number"] {
+  width: 360px;
+  height: 40px;
+  margin-bottom: 24px;
+}
+
+fieldset {
+  width: 360px;
+  height: 78px;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+button[type="submit"] {
+  width: 360px;
+  height: 40px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #4e75ff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #6c8cff;
+}
+
+fieldset label {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+#message {
+  width: 383px;
+  height: 64px;
+  margin-top: 20px;
+  background: #59a10d;
+
+}
+
+#message.error {
+  background: #ef4040;
+
+}
